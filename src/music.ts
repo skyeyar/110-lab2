@@ -15,5 +15,3 @@ export function printSnacks(): void {
   });
 }
 
-// Call the function
-printSnacks();
