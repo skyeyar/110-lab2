@@ -1,19 +1,7 @@
-const snacks: string[] = [
-  "Chips",
-  "Popcorn",
-  "Chocolate",
-  "Cookies",
-  "Ice Cream"
-];
+export const snacks = ["chips", "cookies", "popcorn"];
 
-// Export a function that prints the snacks
-export function printSnacks(): void {
-  console.log("My favorite snacks:");
-
-  snacks.forEach((snack) => {
-    console.log(snack);
-  });
+export function printSnacks() {
+  console.log(snacks);
 }
 
-// Call the function
 printSnacks();
