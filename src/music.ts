@@ -8,7 +8,7 @@ const snacks: string[] = [
   "Ice Cream"
 ];
 
-// Export a function that prints the snacks
+// Export a function that prints the snack list.
 export function printSnacks(): void {
   console.log("My favorite snacks:");
 
