@@ -1,20 +1,20 @@
 import { animation } from "./animation";
 
-const snacks: string[] = [
-  "Chips",
-  "Popcorn",
-  "Chocolate",
-  "Cookies",
-  "Ice Cream"
+const music: string[] = [
+  "Pop",
+  "Rock",
+  "Jazz",
+  "Classical",
+  "Hip-Hop"
 ];
 
 // Export a function that prints the snack list.
-export function printSnacks(): void {
-  console.log("My favorite snacks:");
+export function printMusic(): void {
+  console.log("My favorite Music:");
 
   animation("Music");
-  snacks.forEach((snack) => {
-    console.log(snack);
+  music.forEach((genre) => {
+    console.log(genre);
   });
 }
 
