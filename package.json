@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "typescript": "^5.9.3",
+    "vite": "^6.4.4",
+    "vitest": "^4.1.11"
+  },
+  "name": "110-lab2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyeyar/110-lab2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/skyeyar/110-lab2/issues"
+  },
+  "homepage": "https://github.com/skyeyar/110-lab2#readme"
+}
